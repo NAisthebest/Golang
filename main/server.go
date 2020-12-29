@@ -50,7 +50,7 @@ func main()  {
 	//http服务端
 	http.HandleFunc("/ws",wsHandler)
 	//启动服务端
-	http.ListenAndServe("0.0.0.0:7777",nil)
+	http.ListenAndServe("0.0.0.0:8000",nil)
 
 }
 
