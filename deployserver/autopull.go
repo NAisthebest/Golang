@@ -13,6 +13,7 @@ func main(){
 }
 
 func index(w http.ResponseWriter, r *http.Request){
+	//自动拉起任务
 	autopull()
 }
 
